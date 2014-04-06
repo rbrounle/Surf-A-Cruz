@@ -1,0 +1,81 @@
+#beach
+{
+position:fixed;
+left:25px;
+top:15px;
+font-family:Arial;
+font-size:30px;
+}
+#thumb_count
+{
+position:fixed;
+left:200px;
+top:15px;
+border:solid 1px #000000;
+font-size:30px;
+}
+#forecast
+{
+position:fixed;
+left:450px;
+top:20px;
+font-family:Arial;
+font-size:20px;
+}
+#weather
+{
+position:fixed;
+left:550px;
+top:20px;
+font-size:20px;
+}
+#icon
+{
+position:fixed;
+left:600px;	
+}
+#heading
+{
+border:3px solid #000000;
+padding:3px 7px 2px 7px;
+}
+#local
+{
+font-size:30px;
+}
+#return
+{
+position: fixed;
+left: 515px;
+bottom: 90px;
+border-radius: 5px;
+width:100px;
+border:3px solid #000000;
+padding:3px 7px 2px 7px;
+}
+#aggregate 
+{
+position:fixed;
+left:25px;
+top:60px;
+bottom:-25px;
+font-family:Arial;
+width: 100%;
+border-collapse:collapse;
+}
+#aggregate td
+{
+border:3px solid #000000;
+padding:3px 7px 2px 7px;
+}
+#aggregate img
+{
+width:120px;
+height:30px;
+}
+iframe
+{
+width:90px;
+height:110px;
+}
+

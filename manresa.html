@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html style="background-color:lightblue">
+   <head>
+      <title>SURF-A-CRUZ</title>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+      <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+      <script src="manresaAPI.js"></script>
+   </head>
+   <body>
+      <div id="beach"><b>Manresa</b></div>
+      <div id="forecast">Weather: </div>
+      <div id="weather"></div>
+      <img src="icon" />
+      
+      <table id="aggregate", style="width:300px">
+      <tr>
+         <th></th>
+         <th id="heading">Water Temperature</th>
+         <th id="heading">Wind Condition</th>
+         <th id="heading">Wave Size</th>
+         <th id="heading">Current Tide</th>
+         <th id="heading">Conditions</th>
+      </tr>
+      <tr>
+         <td><img src="http://www.shop-eat-surf.com/userfiles/image/blog/Media/SurflineLogo.png"/></td>
+         <td id="slmaTemp"></td>
+         <td id="smaWind"></td>
+         <td id="slmaWave"></td>
+         <td><iframe src="http://www.surfline.com/surfdata/inc_spot/inc_mod_tides_ajax.cfm?id=4190&livetide=true&units=e&tideLocation=Santa%2520Cruz%252C%2520Monterey%2520Bay%252C%2520California"></iframe></td>
+         <td><center>No Data Available</center></td>
+      </tr>
+      <tr>
+         <td><img src="http://magicseaweed.com/promo/forecast_files/logo90px.jpg"/></td>
+         <td id="mamWater"></td>
+         <td id="mamWind"></td>
+         <td id="mamWave"></td>
+         <td><iframe src="http://www.surfline.com/surfdata/inc_spot/inc_mod_tides_ajax.cfm?id=4190&livetide=true&units=e&tideLocation=Santa%2520Cruz%252C%2520Monterey%2520Bay%252C%2520California"></iframe></td>
+         <td><center>No Data Available</center></td>
+      </tr>
+      <tr>
+         <td id="local"><center><b>Locals</b></center></td>
+         <td><center>51F</center></td>
+         <td><center>4 knots</center></td>
+         <td><center>4 ft</center></td>
+         <td><center>High</center></td>
+         <td><center>Fair</center></td>
+      </tr>
+      
+      <div id="return"><a href="http://surfline.com" /><center>Return to listings</center></div>
+   </body>
+</html>
