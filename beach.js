@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<body>
-
-<script>
 /* 
 Author: Sam Fields
 
@@ -49,10 +43,10 @@ myBeaches[2] = beach3;
 function printNames() {
      for (var i = 0; i < myBeaches.length; i++) {
           myBeaches[i].speak();
-          document.write(" ");
-		  document.write(myBeaches[i].waveSL + " ");
+          // document.write(" ");
+		  // document.write(myBeaches[i].waveSL + " ");
      }
-	 document.write("<br>");
+	 // document.write("<br>");
 }
 
 //The following are needed for sorting:
@@ -72,12 +66,12 @@ function sortThumbsNum(a,b) {
 //Call the following to sort beaches:
 function sortByWave() {
     myBeaches.sort(sortWaveNum);
-	printNames();
+	// printNames();
 }
 
 function sortByWind() {
     myBeaches.sort(sortWindNum);
-	printNames();
+	// printNames();
 }
 
 function sortByThumbs() {
@@ -86,14 +80,9 @@ function sortByThumbs() {
 }
 
 //Testing calls:
-document.write("By Wind:<br>");
-sortByWind();
-document.write("By Wave:<br>");
-sortByWave();
-document.write("By Thumbs:<br>");
-sortByThumbs();
-	 
-</script>
-
-</body>
-</html>
+// document.write("By Wind:<br>");
+// sortByWind();
+// document.write("By Wave:<br>");
+// sortByWave();
+// document.write("By Thumbs:<br>");
+// sortByThumbs();
