@@ -1,6 +1,6 @@
 <?php
 
-mysql_connect("localhost", "rbrounle", "") or die(mysql_error());
+mysql_connect("localhost", "root", "jacfab13") or die(mysql_error());
 mysql_select_db("Surf-A-Cruz") or die(mysql_error());
 
 
